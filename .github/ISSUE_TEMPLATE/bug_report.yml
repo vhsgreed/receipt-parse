@@ -1,0 +1,21 @@
+name: Bug report
+description: Report a problem with this tool
+labels: [bug, triage]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Paste the error output and what you expected.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: e.g. 0.1.0 or the commit hash
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: OS, Python version, shell
