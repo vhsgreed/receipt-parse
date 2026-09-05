@@ -28,3 +28,7 @@ can feed into a budget or expense tracker.
 
 - `--out-dir`: per-receipt JSON files
 - `--csv`: merged line items in one CSV
+
+## Links
+
+Part of the [vhsgreed](https://vhsgreed.win) toolset: data, code, and methods in the open.
